@@ -1,6 +1,6 @@
 # Asset Allocation Framework
 
-A modular Python framework for strategic, tactical, and dynamic asset allocation
+Framework for strategic, tactical, and dynamic asset allocation
 with probit-based regime signals, mean-variance portfolio optimisation, and
 rolling backtesting.
 
