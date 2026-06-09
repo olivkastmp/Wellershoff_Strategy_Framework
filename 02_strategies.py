@@ -6,9 +6,6 @@ SAA, TAA, and DAA strategy classes.
 All strategies share the same interface:
     strategy.get_weights(date, prices, regime_prob) -> pd.Series
 
-The only thing that changes between SAA / TAA / DAA is *how* the regime
-probability (from the probit model) is translated into portfolio weights.
-
 SAA (Strategic Asset Allocation)
 ---------------------------------
 Fixed target weights, rebalanced at a set frequency. Regime probability
